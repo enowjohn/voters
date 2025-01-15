@@ -113,8 +113,8 @@ const HomePage = () => {
                         <h1 className='text-3xl font-bold mb-2 md:text-5xl 3xl:text-9xl'>Awards</h1>
                         <h2 className='text-xl md:text-2xl font-normal 3xl:text-4xl'>Awards Schemes and Categories</h2>
                     </div>
-                    <div className='flex flex-wrap  md:gap-40 bg-white  md:text-center gap-6 xl:gap-20 px-4 mx-auto items-center justify-center 2xl:gap-7 3xl:gap-20'>                       
-                    <div className='w-full shadow-button-c shadow-md bg-white h-96 gap-14 rounded-md  text-custom-blue md:w-72 lg:w-96 xl:w-[38rem] xl:h-[35rem] 2xl:w-[35rem] 3xl:w-[45rem] 3xl:h-[49rem]'>
+                    <div className='flex flex-wrap  md:gap-40 bg-white  md:text-center gap-6 xl:gap-20 px-4 mx-auto items-center justify-center 2xl:gap-4 3xl:gap-20'>                       
+                    <div className='w-full shadow-black shadow-md bg-white h-96 gap-14 rounded-md  text-custom-blue md:w-72 lg:w-96 xl:w-[38rem] xl:h-[35rem] 2xl:w-[35rem] 3xl:w-[45rem] 3xl:h-[49rem]'>
                             <img src={voteImage} alt="vtimg" className='  w-96 h-40 object-cover rounded-lg xl:w-[35rem] xl:h-[16rem] 3xl:w-[48rem] 3xl:h-[25rem]' />
                             <h1 className='text-2xl 2xl:text-5xl text-start m-5 xl:text-4xl 3xl:text-7xl'>Students Voting</h1>
                             <p className='text-start 2xl:text-2xl 2xl:m-5 font-light m-5 xl:text-2xl 3xl:text-4xl'>Your voice, your future—make it count,
@@ -122,7 +122,7 @@ const HomePage = () => {
                                 Empowering students, one vote at a time,
                                 The power of youth, the power of choice.</p>
                         </div>
-                        <div className='w-full shadow-md bg-button-c h-96 gap-7 rounded-md  text-custom-blue lg:w-96 md:w-72 xl:w-[38rem] xl:h-[35rem] 2xl:w-[35rem] 3xl:w-[45rem] 3xl:h-[49rem]'>
+                        <div className='w-full shadow-md bg-white h-96 gap-7 rounded-md  text-custom-blue lg:w-96 md:w-72 xl:w-[38rem] xl:h-[35rem] 2xl:w-[35rem] 3xl:w-[45rem] 3xl:h-[49rem]'>
                             <BsBoxArrowUpRight className='w-40 h-40 flex items-center justify-center ml-9 mt-24' />
 
                             <h1 className='text-2xl 2xl:text-5xl text-start m-5 xl:text-4xl 3xl:text-7xl'>Teachers Voting</h1>
