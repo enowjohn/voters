@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import Footer from "../../Components/Footer";
-import LogoImage from "/src/assets/images/2fa8fddc3b07465da808456a6a979854-free.png";
+import LogoImage from "/src/assets/images/Grey and Black Feminine Beauty Logo.png";
 import API_URL from "../Constants/Constants";
 
 const Registration = () => {
@@ -61,7 +61,7 @@ const Registration = () => {
 
   return (
     <>
-      <section className="bg-custom-first min-h-screen flex items-center justify-center">
+      <section className="bg-soft-blue min-h-screen flex items-center justify-center">
         <div className="flex flex-col lg:flex-row w-full max-w-7xl 3xl:max-w-[120rem] px-6 py-8 gap-12 lg:gap-24">
           <div className="flex flex-col justify-between items-start w-full lg:w-1/2">
             <div className="flex items-start justify-start text-3xl text-white">
@@ -83,7 +83,7 @@ const Registration = () => {
           </div>
 
           {/* Right Content */}
-          <div className="w-full lg:w-1/2 bg-custom-second rounded-lg shadow-md p-6 space-y-4 sm:p-8 3xl:h-[49rem] 3xl:w-[75rem] 3xl:p-16">
+          <div className="w-full lg:w-1/2 bg-soft-blue rounded-lg shadow-md p-6 space-y-4 sm:p-8 3xl:h-[49rem] 3xl:w-[75rem] 3xl:p-16">
             <h2 className="text-2xl font-bold text-center mb-6 text-white 3xl:text-4xl">
               Create your account
             </h2>
@@ -169,7 +169,7 @@ const Registration = () => {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="w-full bg-custom-blue text-white p-2.5 rounded-lg text-2xl 3xl:text-4xl"
+                  className="w-full bg-light-green text-white p-2.5 rounded-lg text-2xl 3xl:text-4xl"
                   disabled={loading}
                 >
                   {loading ? "Registering..." : "Sign up"}

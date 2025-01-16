@@ -5,7 +5,7 @@ import HomePage from './Pages/LandingPage/HomePage';
 import Login from './Pages/AuthenticationPage/Login';
 import Registration from './Pages/AuthenticationPage/Registration';
 import { Toaster } from 'sonner';
-import LogoImage from "/src/assets/images/2fa8fddc3b07465da808456a6a979854-free.png";
+import LogoImage from "/src/assets/images/Grey and Black Feminine Beauty Logo.png";
 import VerifyEmails from './Components/VerifyEmails';
 import VerifyEmail from './Components/VerifyEmail';
 import Dashboard from './Pages/Dashboard/Dashboard';

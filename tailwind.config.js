@@ -14,7 +14,12 @@ export default {
         "custom-third": "#1c3d4c",
         "custom-fourth": "#224353",
         "button-c": "#41e2b8",
-        "custom-cyan": "#f3fcf9"
+        "custom-cyan": "#f3fcf9",
+        "custom-red": "#FF0000",
+        "soft-blue": "#5F9EA0",
+        "light-green": "#98FB98",
+        "custom-orange": "#fd7e14",
+        "custom-red": "#dc3545"
 
       },
     },
@@ -24,3 +29,4 @@ export default {
   },
   plugins: [],
 }
+
