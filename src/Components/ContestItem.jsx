@@ -135,8 +135,8 @@ const ContestItem = ({
                   onClick={togglePublish}
                   className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
                     isPublished
-                      ? "bg-gray-300 text-gray-600"
-                      : "bg-custom-blue hover:bg-custom-blue/90 text-white"
+                      ? "bg-light-green text-white"
+                      : "bg-light-green hover:bg-custom-blue/90 text-white"
                   }`}
                 >
                   {isPublished ? "Unpublish Contest" : "Publish Contest"}
@@ -147,7 +147,7 @@ const ContestItem = ({
                     setSelectedContestId(contest?._id);
                     setIsContestantModalOpen(true);
                   }}
-                  className="px-4 py-2 rounded-lg font-medium bg-gray-300 text-gray-600 hover:bg-gray-400 transition-all duration-200"
+                  className="px-4 py-2 rounded-lg font-medium bg-custom-red text-white hover:bg-gray-400 transition-all duration-200"
                 >
                   Add Contestants
                 </button>

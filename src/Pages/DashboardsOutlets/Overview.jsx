@@ -168,7 +168,7 @@ const Overview = () => {
   }
 
   return (
-    <div className="flex flex-col h-lvh bg-gray-50 p-6 space-y-6 overflow-auto w-full xl:w-[102rem] 3xl:w-[138rem]">
+    <div className="flex flex-col h-lvh bg-gray-50 p-6 space-y-6 overflow-auto w-full xl:w-[90rem] 3xl:w-[148rem]">
       <div className="flex items-center justify-between w-full gap-3">
         <h1 className="text-xl font-bold text-gray-800">Overview</h1>
         <button

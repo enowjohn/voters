@@ -55,18 +55,20 @@ const Login = () => {
 
   return (
     <>
-      <section className="bg-custom-first min-h-screen flex items-center justify-center">
+      <section className="bg-soft-blue min-h-screen flex items-center justify-center">
         <div className="flex flex-col lg:flex-row w-full max-w-7xl px-6 py-8 gap-12 lg:gap-24 3xl:max-w-[120rem] 3xl:px-16">
           <div className="flex flex-col justify-center items-start w-full lg:w-1/2">
             <h1 className="text-4xl font-bold text-center lg:text-left text-white mb-4 3xl:text-6xl">
-              Welcome Back
+              Hello GOD Bless You
             </h1>
             <p className="text-lg text-center lg:text-left text-white mb-8 3xl:text-2xl">
               Log in to continue to your dashboard
+              Cast your Vote, for your vote count
+              just input your credential to paticipate as well
             </p>
           </div>
 
-          <div className="w-full lg:w-1/2 bg-custom-second rounded-lg shadow-md p-6 space-y-4 sm:p-8 3xl:p-16">
+          <div className="w-full lg:w-1/2 bg-soft-blue rounded-lg shadow-md p-6 space-y-4 sm:p-8 3xl:p-16 flex flex-col container mx-auto justify-center items-center">
             <h2 className="text-2xl font-bolds text-center mb-6 3xl:text-4xl text-white">
               Login
             </h2>

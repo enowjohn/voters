@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       <section className="flex flex-col md:flex-row items-start justify-around bg-custom-blue text-white p-5 3xl:h-[25rem] 2xl:gap-96">
         <div className="flex flex-col justify-center gap-5 items-start">
-          <h1 className="text-xl md:text-2xl  3xl:text-5xl">VoteHub</h1>
+          <h1 className="text-xl md:text-2xl  3xl:text-5xl">johnwashinton</h1>
           <p className="text-sm md:text-base 3xl:text-2xl">
             {" "}
             the only secured, safe <br /> and user-friendly platform that makes
@@ -26,15 +26,15 @@ const Footer = () => {
           </h1>
           <div className="flex items-center justify-center gap-2 3xl:text-2xl">
             {" "}
-            <MdLocationOn /> <span>VoteHub jouvence, Yaounde</span>{" "}
+            <MdLocationOn /> <span> jouvence, Yaounde</span>{" "}
           </div>
           <div className="flex items-center justify-center gap-2 3xl:text-2xl">
             {" "}
-            <MdMarkEmailRead /> <h1>VoteHub@gmail.com</h1>{" "}
+            <MdMarkEmailRead /> <h1>johnwashinton@gmail.com</h1>{" "}
           </div>
           <div className="flex items-center justify-center gap-2 3xl:text-2xl">
             {" "}
-            <FaPhoneVolume /> <span>+237676184440</span>{" "}
+            <FaPhoneVolume /> <span>+237652340197</span>{" "}
           </div>
         </div>
         <div className="flex flex-col items-center justify-center gap-5">
@@ -56,7 +56,7 @@ const Footer = () => {
       </section>
       <section className=" w-full bg-custom-blue h-14 flex items-center justify-start ">
         <div className="flex flex-col items-start justify-center text-white ml-5">
-          copy right since 2024
+          copy right since 2025 by John
         </div>
       </section>
     </>
